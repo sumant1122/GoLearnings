@@ -10,8 +10,8 @@ func main() {
 	var occupancy int = 12
 	//occupancy := 12 //<- can also be wriiten like this
 	//var occupancy = 12 //<- can also be written like this
-	fmt.Println(hotelName, longitude, latitude)
-	fmt.Println()
+	fmt.Println("Hotel:", hotelName, "Lng:", longitude, "Lat:", latitude)
+	fmt.Println("============Rooms Available==============")
 	fmt.Println(occupancy)
 
 }

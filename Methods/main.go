@@ -32,7 +32,7 @@ func (c *Cart) delete() error { //not public as method name is lowercase
 }
 
 func main() {
-	newCart := cart.Cart{}
+	newCart := Cart{}
 
 	totalPrice, err := newCart.TotalPrice()
 	if err != nil {
